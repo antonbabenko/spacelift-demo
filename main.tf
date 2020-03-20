@@ -3,7 +3,7 @@ provider "aws" {
 }
 
 resource "random_pet" "this" {
-  length = 2
+  length = 3
 }
 
 module "log_bucket" {
